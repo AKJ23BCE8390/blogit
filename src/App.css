@@ -1,0 +1,51 @@
+.App {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Hero Section */
+.hero-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  padding: 0 16px; /* responsive horizontal padding */
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.hero-image {
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+  border-radius: 12px;
+  object-fit: contain;
+}
+
+.write-blog-container {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.write-blog-button {
+    background-color: #0097B3;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.write-blog-button:hover {
+    background-color: #007b94;
+    transform: translateY(-2px);
+}
+
+.write-blog-button:active {
+    background-color: #006f86;
+    transform: translateY(0);
+}
